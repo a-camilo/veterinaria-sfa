@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    text-decoration: none;
+    font-family: 'Redressed', cursive;
+    scroll-behavior: smooth;
+}
+
+/* Cabeçalho */
+.header{
+    display: flex;
+    margin: 20px auto 0;
+    max-width: 74%;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-image{
+    width: 120px;
+}
+.header-nav li{
+    display:inline ;
+    margin: 10px;
+    
+} 
+
+.header-nav a{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #0b5f5d;
+}   
+.header-nav a:hover{
+    text-decoration: underline;    
+}
+
+/* Configuração dos TITULOS PRINCIPAIS h1 e h2 */
+.titulo-principal{
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    color: #0b5f5d;
+    max-width: 100%;
+    margin: 10px auto 0;   
+}
+.titulo-principal h2{
+    font-size: 4em;
+}
+
+/* Foto principal */
+.banner-principal{
+    display: flex;
+    width: 100%;
+    margin: auto;
+}
+
+/* Sobre a Clínica */
+#content-sobre-nos{
+    display: flex;
+    align-items: center;
+    max-width: 80%;
+    margin: 100px auto;     
+}
+.sobre-nos-banner{
+    max-width: 50%;
+}
+.content-sobre-nos-responsive{
+    display: none;
+}
+.sobre-nos h2{
+    color: #0b5f5d;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom:10px ;
+}
+.sobre-nos p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+    padding: 0 40px;
+    line-height: 1.5em;
+}
+
+/* Imagens dos animais, link para o blog */
+#blog-content{
+    display: flex;
+    flex-direction: column;  
+}
+.blog{
+    display: flex;  
+    margin: auto ;
+    max-width: 100%;
+    align-items: baseline;   
+}
+.blog-image img{
+    max-width: 80%;
+    width: 200px;
+    padding: 5px;    
+}
+.blog-image img:hover{
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+/* Divisões entre tópicos */
+hr{
+    max-width: 80%;
+    margin:20px  auto;   
+}
+
+/*Area do mapa e contatos */
+#content-maps{
+    display: flex;
+    max-width: 80%;
+    margin: auto;
+    align-items: center;
+}
+.maps{
+    width: 50%;
+    max-width: 70%;     
+}
+.maps-endereco-contato{
+    width: 50%;
+    text-align: center;
+    line-height: 2;   
+}
+.maps-endereco-contato p{
+    font-size: 1.3em;
+}
+.footer-content{
+    display: flex;
+    width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    height: 100px; 
+    background:linear-gradient(#FFFFFF,#0b5f5d);
+    
+}
+.footer-paragrafo{
+   
+    max-width: 100%;
+    color: white;
+    margin:70px auto;
+    
+   
+    
+}
+
+
+@media screen and (max-width:612px){
+    .header, .titulo-principal h1{
+        display: flex;
+        flex-direction: column;
+        margin: 20px auto 0;
+        max-width: 74%;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 9.2pt;
+    }
+    .header-nav{
+        margin-top: 25px;    
+    } 
+    .header-nav li{
+        display:inline ;
+        margin: 5px;
+        max-width: 100%;   
+    } 
+}
+@media screen and (max-width:802px){ 
+    #content-sobre-nos{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        max-width: 100%;
+        margin: 10px auto;    
+    }
+    #content-maps{
+        max-width: 95%;
+        width: 100%;
+        flex-direction: column-reverse;
+        margin: 0 auto;
+    }
+    .maps, .maps-endereco-contato{
+        max-width: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    {
+
+    }
+    
+}
