@@ -47,14 +47,13 @@ body{
     padding: 30px;
     text-align: justify;
     align-items: center;
-    line-height: 1.7;
+    line-height: 1.8;
 }
 .texto-felinos:first-of-type:first-letter,.texto-roedores:first-of-type:first-letter{
     font-size: 300%;
     font-weight: bold;
     color: #0b5f5d;
-    margin: 5px;
-    
+    margin: 0 5px;   
 }
 .artigo-caninos img{
     width: 55%;
