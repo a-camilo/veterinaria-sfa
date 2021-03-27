@@ -39,7 +39,7 @@ body{
     text-align: center;
     margin: 30px;
 }
-.artigo{
+.artigo-caninos, .artigo-felinos{
 
     display: inline-block;
     max-width: 100%;
@@ -49,10 +49,15 @@ body{
     align-items: center;
     line-height: 1.7;
 }
-.artigo img{
+.artigo-caninos img{
     width: 55%;
     float: right;
     padding: 0 0 20px 20px;
+}
+.artigo-felinos img{
+    width: 55%;
+    float: left;
+    padding: 0 20px 20px 0;
 }
 /* Rodapé */
 .footer-content{
@@ -92,17 +97,21 @@ body{
         font-size:2em ;
         margin: 20px 0;
     }
-    .artigo{
+    .artigo-caninos, .artigo-felinos{
         max-width:100%;
         margin: 20px 0;
         padding: 10px; 
          
     }
-    .artigo img{
+    .artigo-caninos img{
         margin: 0 0 5px 5px;
         padding: 0;
     }
-    .artigo h2{
+    .artigo-felinos img{
+        margin:5px 5px 0 0;
+        padding: 0;
+    }
+    .artigo-caninos h2, .artigo-felinos h2{
         font-size:1em ;
         margin: 5px 0;
         line-height: 2;
