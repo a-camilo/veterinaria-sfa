@@ -39,7 +39,7 @@ body{
     text-align: center;
     margin: 30px;
 }
-.artigo-caninos, .artigo-felinos,.artigo-roedores{
+.artigo-caninos, .artigo-felinos,.artigo-quelonios,.artigo-roedores{
 
     display: inline-block;
     max-width: 100%;
@@ -65,7 +65,7 @@ body{
     float: left;
     padding: 0 20px 20px 0;
 }
-.artigo-roedores img{
+.artigo-roedores img,.artigo-quelonios img{
     display: flex;
     max-width: 100%;
     margin: 40px auto;
@@ -109,11 +109,10 @@ body{
         font-size:2em ;
         margin: 20px 0;
     }
-    .artigo-caninos, .artigo-felinos,.artigo-roedores{
+    .artigo-caninos, .artigo-felinos,.artigo-quelonios,.artigo-roedores{
         max-width:100%;
         margin: 20px 0;
-        padding: 10px; 
-         
+        padding: 10px;    
     }
     .artigo-caninos img{
         margin: 0 0 5px 5px;
